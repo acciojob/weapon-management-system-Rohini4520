@@ -27,15 +27,17 @@ public class WeaponDemo {
 
         public void setDamage(int damage) {
         	//your code goes here
+            this.damage = damage;
+
         }
 
         public int getRange() {
         	//your code goes here
             return range;
         }
-
         public void setRange(int range) {
         	//your code goes here
+            this.range = range;
         }
     }
 
